@@ -1,0 +1,32 @@
+{
+  "name": "test-project-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaminduChankana/MERN-Tutorial-series.git"
+  },
+  "author": "Thamindu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThaminduChankana/MERN-Tutorial-series/issues"
+  },
+  "homepage": "https://github.com/ThaminduChankana/MERN-Tutorial-series#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.15",
+    "react-router-dom": "^6.1.1"
+  }
+}
